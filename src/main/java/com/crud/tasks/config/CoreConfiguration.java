@@ -1,7 +1,6 @@
 package com.crud.tasks.config;
 
-import com.crud.tasks.controller.TaskController;
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Documentation;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
