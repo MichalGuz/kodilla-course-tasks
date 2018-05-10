@@ -28,8 +28,11 @@ public class SimpleEmailService {
     public void send(final Mail mail) {
         LOGGER.info("Starting email preparation...");
         try {
-            javaMailSender.send(createMailMessage(mail));
-            {if (mail.getToCc()== null) {javaMailSender.send(createMailMessage(new Mail (mail.getMailTo(), mail.getSubject(), mail.getMessage(), "")));}}
+            if (mail.getToCc()== null) {
+                javaMailSender.send(createMailMessage(new Mail(mail.getMailTo(), mail.getSubject(), mail.getMessage(), "mg.codebox@gmail.com")));
+            } else {
+                javaMailSender.send(createMailMessage(mail));
+            }
             LOGGER.info("Email has been sent.");
         } catch (MailException e) {
             LOGGER.error("Failed to process email sending: " + e.getMessage(), e);
