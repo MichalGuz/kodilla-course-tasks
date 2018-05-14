@@ -2,34 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f0ef65f-4f4f-48e8-a146-d1ae73d9c48f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/mapper/TrelloMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/facade/TrelloFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/validator/TrelloValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/mapper/TrelloMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/config/AdminConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/config/AdminConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/controller/TrelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/controller/TrelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/domain/CreatedTrelloCard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/domain/TrelloBoardDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/domain/TrelloBoardDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/scheduler/EmailScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/scheduler/EmailScheduler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/service/SimpleEmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/service/SimpleEmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/service/TrelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/service/TrelloService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/trello/client/TrelloClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/crud/tasks/trello/client/TrelloClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/crud/tasks/trello/client/TrelloClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/crud/tasks/trello/client/TrelloClientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/config/AdminConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/config/AdminConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/controller/TrelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/CreatedTrelloCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/CreatedTrelloCardDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/service/TrelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/client/TrelloClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crud/tasks/trello/client/TrelloClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/trello/client/TrelloClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/trello/client/TrelloClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crud/tasks/mapper/TrelloMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crud/tasks/mapper/TrelloMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -63,8 +38,8 @@
       <file leaf-file-name="TrelloMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/mapper/TrelloMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="28" selection-end-line="44" />
+            <state relative-caret-position="351">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +50,8 @@
       <file leaf-file-name="TrelloMapperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/mapper/TrelloMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="257">
+              <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +59,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrelloBoardDto.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmailScheduler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/config/AdminConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrelloBoardDto.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="228">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -572,11 +565,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/mapper/TrelloMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloCardDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloListDto.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/crud/tasks/mapper/TrelloMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java" />
       </list>
     </option>
   </component>
@@ -600,12 +593,79 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kodilla-course-tasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="kodilla-course-tasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -619,6 +679,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -662,7 +724,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrelloMapperTest.testOfTrelloMapperMethods">
+  <component name="RunManager" selected="Spring Boot.TasksApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -689,29 +751,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TrelloClientTest.shouldCreateCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tasks_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.crud.tasks.trello.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.crud.tasks.trello.client" />
-      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.trello.client.TrelloClientTest" />
-      <option name="METHOD_NAME" value="shouldCreateCard" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="TrelloClientTest.shouldReturnEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tasks_test" />
       <extension name="coverage">
@@ -726,6 +765,29 @@
       <option name="MAIN_CLASS_NAME" value="com.crud.tasks.trello.client.TrelloClientTest" />
       <option name="METHOD_NAME" value="shouldReturnEmptyList" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TrelloMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tasks_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crud.tasks.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.crud.tasks.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.crud.tasks.mapper.TrelloMapperTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -825,19 +887,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.TasksApplication" />
-      <item itemvalue="JUnit.TrelloClientTest.shouldCreateCard" />
       <item itemvalue="JUnit.TrelloClientTest.shouldReturnEmptyList" />
       <item itemvalue="JUnit.SimpleEmailServiceTest.shouldSendEmail" />
       <item itemvalue="JUnit.TrelloMapperTest.testMapToBaord" />
       <item itemvalue="JUnit.TrelloMapperTest.testOfTrelloMapperMethods" />
+      <item itemvalue="JUnit.TrelloMapperTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrelloMapperTest" />
         <item itemvalue="JUnit.TrelloMapperTest.testOfTrelloMapperMethods" />
         <item itemvalue="JUnit.TrelloMapperTest.testMapToBaord" />
         <item itemvalue="JUnit.SimpleEmailServiceTest.shouldSendEmail" />
         <item itemvalue="JUnit.TrelloClientTest.shouldReturnEmptyList" />
-        <item itemvalue="JUnit.TrelloClientTest.shouldCreateCard" />
       </list>
     </recent_temporary>
   </component>
@@ -872,44 +934,46 @@
       <workItem from="1525937492536" duration="19032000" />
       <workItem from="1526021417459" duration="9570000" />
       <workItem from="1526110809785" duration="17754000" />
-      <workItem from="1526196575851" duration="1139000" />
+      <workItem from="1526196575851" duration="2400000" />
+      <workItem from="1526214216742" duration="4000" />
+      <workItem from="1526322929610" duration="5026000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 20h 05m 22s.xml">
+    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.14 at 21h 11m 52s.xml">
       <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 20h 10m 25s.xml">
+    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.14 at 21h 41m 15s.xml">
       <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 20h 15m 26s.xml">
-      <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
+    <history-entry file="TrelloMapperTest - 2018.05.14 at 21h 44m 09s.xml">
+      <configuration name="TrelloMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 20h 16m 28s.xml">
-      <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
+    <history-entry file="TrelloMapperTest - 2018.05.14 at 21h 44m 52s.xml">
+      <configuration name="TrelloMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 20h 16m 46s.xml">
-      <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
+    <history-entry file="TrelloMapperTest - 2018.05.14 at 22h 06m 17s.xml">
+      <configuration name="TrelloMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 20h 18m 16s.xml">
-      <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
+    <history-entry file="TrelloMapperTest - 2018.05.14 at 22h 08m 18s.xml">
+      <configuration name="TrelloMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 20h 38m 54s.xml">
-      <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
+    <history-entry file="TrelloMapperTest - 2018.05.14 at 22h 09m 56s.xml">
+      <configuration name="TrelloMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 21h 25m 22s.xml">
-      <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
+    <history-entry file="TrelloMapperTest - 2018.05.14 at 22h 14m 57s.xml">
+      <configuration name="TrelloMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 21h 27m 05s.xml">
-      <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
+    <history-entry file="TrelloMapperTest - 2018.05.14 at 22h 18m 08s.xml">
+      <configuration name="TrelloMapperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrelloMapperTest_testOfTrelloMapperMethods - 2018.05.12 at 21h 29m 20s.xml">
-      <configuration name="TrelloMapperTest.testOfTrelloMapperMethods" configurationId="JUnit" />
+    <history-entry file="TrelloMapperTest - 2018.05.14 at 22h 47m 18s.xml">
+      <configuration name="TrelloMapperTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174707000" />
+    <option name="totallyTimeSpent" value="180998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -936,14 +1000,15 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.56042296" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32930514" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32930514" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" weight="0.62537766" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984375" weight="0.34592146" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4984375" weight="0.3776435" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4984375" visible="true" weight="0.3776435" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -951,14 +1016,49 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49921876" weight="0.32930514" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32930514" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49921876" weight="0.32930514" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4984375" visible="true" weight="0.62537766" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4984375" weight="0.3776435" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5015625" side_tool="true" weight="0.3776435" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32930514" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32930514" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56042296" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -968,7 +1068,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/crud/tasks/mapper/TrelloMapperTest.java</url>
+          <line>21</line>
+          <properties class="com.crud.tasks.mapper.TrelloMapperTest" method="testOfTrelloMapperMethods">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1203,13 +1313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/config/AdminConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1228,13 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1311,10 +1407,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/mapper/TrelloMapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="228">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1323,21 +1419,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/mapper/TrelloMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="28" selection-end-line="44" />
+        <state relative-caret-position="351">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/domain/TrelloBoardDto.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/crud/tasks/mapper/TrelloMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="257">
+          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/config/AdminConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crud/tasks/scheduler/EmailScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>

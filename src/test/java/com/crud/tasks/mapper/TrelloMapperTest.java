@@ -4,19 +4,18 @@ import com.crud.tasks.domain.*;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.runners.MockitoJUnitRunner;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
-
-@RunWith(MockitoJUnitRunner.class)
+@RunWith(SpringRunner.class)
+@SpringBootTest
 public class TrelloMapperTest {
 
-    @Mock
+    @Autowired
     private TrelloMapper trelloMapper;
 
     @Test
@@ -42,14 +41,9 @@ public class TrelloMapperTest {
         System.out.println("trelloBoardList size is: " + trelloBoardList.size());
         System.out.println("mappdedTrelloBoard size is: " + mappdedTrelloBoard.size());
         System.out.println("newTrelloBoard size is: " + newTrelloBoard.size());
-
-        System.out.println("newTrelloBoard: " + newTrelloBoard);
-        System.out.println("newCard" + newCard);
-//        Assert.assertEquals(card, newCard);
-//        Assert.assertEquals(1, mappdedTrelloBoard.size());
+        Assert.assertEquals(card.getName(), newCard.getName());
+        Assert.assertEquals(card.getPos(), newCard.getPos());
+        Assert.assertEquals(1, mappdedTrelloBoard.size());
         Assert.assertEquals(trelloBoardList.size(), mappdedTrelloBoard.size());
-//        Assert.assertEquals();
-
     }
-
 }

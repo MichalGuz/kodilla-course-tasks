@@ -29,7 +29,7 @@ public class SimpleEmailService {
         LOGGER.info("Starting email preparation...");
         try {
             if (mail.getToCc()== null) {
-                javaMailSender.send(createMailMessage(new Mail(mail.getMailTo(), mail.getSubject(), mail.getMessage(), "mg.codebox@gmail.com")));
+                javaMailSender.send(createMailMessage(new Mail(mail.getMailTo(), mail.getSubject(), mail.getMessage(),"mg.codebox@gmail.com")));
             } else {
                 javaMailSender.send(createMailMessage(mail));
             }
