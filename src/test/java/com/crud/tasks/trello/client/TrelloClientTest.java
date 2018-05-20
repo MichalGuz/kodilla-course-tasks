@@ -44,7 +44,7 @@ public class TrelloClientTest {
     public void shouldFetchTrelloBoards() throws URISyntaxException {
         // Given
         TrelloBoardDto[] trelloBoards = new TrelloBoardDto[1];
-        trelloBoards[0] = new TrelloBoardDto("test_board", "test_id", new ArrayList<>());
+        trelloBoards[0] = new TrelloBoardDto("test_id", "test_board", new ArrayList<>());
 
         URI uri = new URI("http://test.com/members/michal98865882/boards?key=test&token=test&fields=name,id&lists=all");
 
@@ -84,9 +84,9 @@ public class TrelloClientTest {
         CreatedTrelloCardDto newCard = trelloClient.createNewCard(trelloCardDto);
 
         // Then
-        assertEquals("1", newCard.getId());
-        assertEquals("Test task", newCard.getName());
-        assertEquals("http://test.com", newCard.getShortUrl());
+        assertEquals(createdTrelloCardDto.getId(), newCard.getId());
+        assertEquals(createdTrelloCardDto.getName(), newCard.getName());
+        assertEquals(createdTrelloCardDto.getShortUrl(), newCard.getShortUrl());
     }
 
     @Test
