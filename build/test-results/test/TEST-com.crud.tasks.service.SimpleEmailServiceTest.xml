@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crud.tasks.service.SimpleEmailServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-26T17:40:14" hostname="Dell-Komputer" time="0.026">
+  <properties/>
+  <testcase name="shouldSendEmail" classname="com.crud.tasks.service.SimpleEmailServiceTest" time="0.026"/>
+  <system-out><![CDATA[2018-05-26 19:40:14.704  INFO 2964 --- [    Test worker] o.s.mail.SimpleMailMessage               : Starting email preparation...
+2018-05-26 19:40:14.706  INFO 2964 --- [    Test worker] o.s.mail.SimpleMailMessage               : Email has been sent.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
