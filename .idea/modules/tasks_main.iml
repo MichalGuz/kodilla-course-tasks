@@ -28,6 +28,7 @@
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.2" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger2:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger-ui:2.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-thymeleaf:1.5.11.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.11.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.11.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
@@ -56,6 +57,8 @@
     <orderEntry type="library" name="Gradle: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.mapstruct:mapstruct:1.1.0.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf-spring4:2.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.4.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:1.5.11.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.11.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.5.11.RELEASE" level="project" />
@@ -87,12 +90,16 @@
     <orderEntry type="library" name="Gradle: javax.activation:activation:1.1" level="project" />
     <orderEntry type="library" name="Gradle: io.springfox:springfox-core:2.7.0" level="project" />
     <orderEntry type="library" name="Gradle: org.reflections:reflections:0.9.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.thymeleaf:thymeleaf:2.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy:2.4.15" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.11" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.29" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.29" level="project" />
     <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.6.14" level="project" />
+    <orderEntry type="library" name="Gradle: ognl:ognl:3.0.8" level="project" />
+    <orderEntry type="library" name="Gradle: org.unbescape:unbescape:1.1.0.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.1.11" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:20.0" level="project" />
   </component>

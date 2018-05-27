@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"> </meta>
+        <title>My welcome page</title>
+    </head>
+    <body>
+        <h1>First impression of my page</h1>
+        <!--/*@thymeVar id="variable" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${variable}"></span>
+        <br> </br>
+        <!--/*@thymeVar id="two" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${two}"></span>
+        <!--/*@thymeVar id="multiply" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${multiply}"></span>
+        <!--/*@thymeVar id="two" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${two}"></span>
+        <!--/*@thymeVar id="equal" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${equal}"></span>
+        <!--/*@thymeVar id="two" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${two}*${two}"></span>
+        <br> </br>
+        <!--/*@thymeVar id="two" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${two}"></span>
+        <!--/*@thymeVar id="multiply" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${multiply}"></span>
+        <!--/*@thymeVar id="two" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${two}"></span>
+        <!--/*@thymeVar id="add" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${add}"></span>
+        <!--/*@thymeVar id="two" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${two}"></span>
+        <!--/*@thymeVar id="equal" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${equal}"></span>
+        <!--/*@thymeVar id="two" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${two}*${two}+${two}"></span>
+        <br> </br>
+        <!--/*@thymeVar id="variable2" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${variable2}"></span>
+        <!--/*@thymeVar id="two" type="com.crud.tasks.controller.StaticWebPageController"*/-->
+        <span th:text="${two}-${two}*${two}"></span>
+    </body>
+</html>
