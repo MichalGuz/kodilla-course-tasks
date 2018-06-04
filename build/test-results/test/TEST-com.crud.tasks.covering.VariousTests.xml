@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crud.tasks.covering.VariousTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-05-27T14:11:03" hostname="Dell-Komputer" time="0.013">
+<testsuite name="com.crud.tasks.covering.VariousTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-05-29T19:33:06" hostname="Dell-Komputer" time="0.011">
   <properties/>
-  <testcase name="testAttachmentsByTypeMethod" classname="com.crud.tasks.covering.VariousTests" time="0.005"/>
+  <testcase name="testAttachmentsByTypeMethod" classname="com.crud.tasks.covering.VariousTests" time="0.003"/>
   <testcase name="testTrelloMethods" classname="com.crud.tasks.covering.VariousTests" time="0.0"/>
-  <testcase name="testBadgesDtoMethods" classname="com.crud.tasks.covering.VariousTests" time="0.003"/>
-  <testcase name="testTrelloConfigMethods" classname="com.crud.tasks.covering.VariousTests" time="0.002"/>
+  <testcase name="testBadgesDtoMethods" classname="com.crud.tasks.covering.VariousTests" time="0.001"/>
+  <testcase name="testTrelloConfigMethods" classname="com.crud.tasks.covering.VariousTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

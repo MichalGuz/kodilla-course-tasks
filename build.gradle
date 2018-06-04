@@ -31,9 +31,10 @@ dependencies {
 	compile('org.projectlombok:lombok:1.16.20')
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	//dla lokalnego MySQL
-	compile('mysql:mysql-connector-java')
+//	compile('mysql:mysql-connector-java')
 	//dla Heroku
-	//	compile('org.postgresql:postgresql')
+	compile('org.postgresql:postgresql')
+
 	compile('org.springframework.boot:spring-boot-starter-mail:1.5.12.RELEASE')
 
     compile('org.springframework.boot:spring-boot-starter-actuator')

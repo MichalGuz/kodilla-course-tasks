@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crud.tasks.covering.TrelloServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-27T14:11:03" hostname="Dell-Komputer" time="0.004">
+<testsuite name="com.crud.tasks.covering.TrelloServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-29T19:33:06" hostname="Dell-Komputer" time="0.004">
   <properties/>
   <testcase name="testTrelloServiceMethods" classname="com.crud.tasks.covering.TrelloServiceTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
